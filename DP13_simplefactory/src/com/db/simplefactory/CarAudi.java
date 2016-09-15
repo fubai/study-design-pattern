@@ -8,6 +8,6 @@ public class CarAudi extends Car {
 
 	@Override
 	public void display() {
-		System.out.println("ÕâÊÇÒ»Á¾" + name + "³µ");
+		System.out.println("å±•ç¤ºä¸€è¾†" + name + "æ±½è½¦");
 	}
 }

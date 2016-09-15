@@ -1,7 +1,7 @@
 package com.dp.factorymethod;
 
 /**
- * ¼òµ¥¹¤³§
+ * å·¥åŽ‚
  * @author zhang
  *
  */

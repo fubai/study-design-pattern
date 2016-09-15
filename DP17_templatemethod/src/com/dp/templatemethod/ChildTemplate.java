@@ -1,7 +1,7 @@
 package com.dp.templatemethod;
 
 /**
- * Ä£°åµÄ×ÓÀà
+ * å­æ¨¡æ¿
  * @author zhang
  *
  */
@@ -9,7 +9,7 @@ public class ChildTemplate extends Template{
 
 	@Override
 	public void templateMethod2() {
-		System.out.println("×ÓÀàÊµÏÖÄ£°åµÄµÚ¶ş¸ö·½·¨");
+		System.out.println("ç¬¬äºŒä¸ªæ¨¡æ¿æ–¹æ³•");
 	}
 
 }

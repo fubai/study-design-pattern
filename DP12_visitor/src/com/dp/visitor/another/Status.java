@@ -1,19 +1,19 @@
 package com.dp.visitor.another;
 
 /**
- * ·ÃÎÊÕß½ÇÉ«:ÈËÉú×´Ì¬
+ * è®¿é—®è€…è§’è‰²
  * @author zhang
  *
  */
 public interface Status {
 
 	/**
-	 * ·ÃÎÊÔªËØA£ºµ±Ç°×´Ì¬ÔªËØA£¨ÄĞÈË£©µÄÏë·¨
+	 * è®¿é—®å…·ä½“å…ƒç´ Aï¼š ç”·äººçš„æƒ³æ³•
 	 * @param man
 	 */
 	public void mind(Man man);
 	/**
-	 * ·ÃÎÊÔªËØB£ºµ±Ç°×´Ì¬ÔªËØB£¨Å®ÈË£©µÄÏë·¨
+	 * è®¿é—®å…·ä½“å…ƒç´ Bï¼š å¥³äººçš„æƒ³æ³•
 	 * @param woman
 	 */
 	public void mind(Woman woman);

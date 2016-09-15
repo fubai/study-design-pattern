@@ -1,7 +1,7 @@
 package com.dp.abstractfactory;
 
 /**
- * ¼òµ¥¹¤³§
+ * å·¥åŽ‚
  * @author zhang
  *
  */

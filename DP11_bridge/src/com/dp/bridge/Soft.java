@@ -1,14 +1,14 @@
 package com.dp.bridge;
 
 /**
- * 抽象手机软件类
+ * 鎵嬫満杞欢
  * @author zhang
  *
  */
 public abstract class Soft {
 
 	/**
-	 * 软件运行
+	 * 杞欢杩愯
 	 */
 	public abstract void work();
 }

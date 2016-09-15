@@ -1,7 +1,7 @@
 package com.db.simplefactory;
 
 /**
- * ¼òµ¥¹¤³§
+ * å·¥åŽ‚
  * @author zhang
  *
  */

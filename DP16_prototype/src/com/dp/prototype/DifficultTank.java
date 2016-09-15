@@ -1,7 +1,7 @@
 package com.dp.prototype;
 
 /**
- * À§ÄÑÄÑ¶ÈµÄÌ¹¿Ë
+ * å›°éš¾æ¨¡å¼çš„tank
  * @author zhang
  *
  */
@@ -11,7 +11,7 @@ public class DifficultTank extends Tank {
 		this.name = "difficult";
 		this.attackPower = 3d;
 		this.defensePower = 3d;
-		System.out.println("Ì¹¿ËÃû×Ö£º" + name + " \t¹¥»÷Á¦£º" + attackPower + " \t·ÀÓùÁ¦£º" + defensePower);
+		System.out.println("Ì¹å¦å…‹" + name + " \tæ”»å‡»åŠ›" + attackPower + " \té˜²å¾¡åŠ›" + defensePower);
 	}
 
 	@Override

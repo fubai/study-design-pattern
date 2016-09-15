@@ -4,39 +4,39 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * ¶ÔÏó½á¹¹½ÇÉ«
+ * å¯¹è±¡ç»“æ„è§’è‰²
  * @author zhang
  *
  */
 public class ObjectStructure {
 
 	/**
-	 * ÔªËØµÄ¼¯ºÏ
+	 * å…ƒç´ çš„åˆ—è¡¨
 	 */
 	private List<Element> elements = new ArrayList<Element>();
 	
 	/**
-	 * Ìí¼ÓÔªËØ
-	 * @param element ±»Ìí¼ÓµÄÔªËØ
+	 * æ·»åŠ å…ƒç´ 
+	 * @param element æ·»åŠ çš„å…ƒç´ 
 	 */
 	public void addElement(Element element){
 		elements.add(element);
 	}
 	
 	/**
-	 * É¾³ıÔªËØ
-	 * @param element ±»É¾³ıµÄÔªËØ
+	 * åˆ é™¤å…ƒç´ 
+	 * @param element åˆ é™¤çš„å…ƒç´ 
 	 */
 	public void removeElement(Element element){
 		elements.remove(element);
 	}
 	
 	/**
-	 * ½ÓÊÜ·ÃÎÊ
+	 * æ¥å—è®¿é—®
 	 * @param visitor
 	 */
 	public void accept(Visitor visitor){
-		//±éÀúËùÓĞÔªËØ£¬¶¼½ÓÊÜ·ÃÎÊ
+		//éå†æ‰€æœ‰å…ƒç´ ï¼Œéƒ½æ¥å—è®¿é—®
 		for (Element element : elements) {
 			element.accept(visitor);
 		}

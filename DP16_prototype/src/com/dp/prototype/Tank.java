@@ -1,22 +1,22 @@
 package com.dp.prototype;
 
 /**
- * Ô­ĞÍ»ùÀà
+ * å¦å…‹
  * @author zhang
  *
  */
 public abstract class Tank {
 
 	/**
-	 * Ãû×Ö
+	 * åå­—
 	 */
 	public String name;
 	/**
-	 * ¹¥»÷Á¦
+	 * æ”»å‡»åŠ›
 	 */
 	public Double attackPower;
 	/**
-	 * ·ÀÓùÁ¦
+	 * é˜²å¾¡åŠ›
 	 */
 	public Double defensePower;
 	

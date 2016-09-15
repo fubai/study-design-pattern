@@ -1,7 +1,7 @@
 package com.dp.composite;
 
 /**
- * ×é¼şµÄ»ùÀà
+ * ç»„ä»¶æŠ½è±¡ç±»
  * @author zhang
  *
  */
@@ -23,27 +23,27 @@ public abstract class Component {
 	}
 
 	/**
-	 * Ôö¼Ó×Ó×é¼ş
+	 * æ·»åŠ å­ç»„ä»¶
 	 * @param component
 	 */
 	public abstract void addComponent(Component component);
 	
 	/**
-	 * É¾³ı×Ó×é½¨
+	 * åˆ é™¤å­ç»„ä»¶
 	 * @param component
 	 */
 	public abstract void removeComponent(Component component);
 	
 	/**
-	 * ÏÔÊ¾ËùÓĞ×Ó×é¼ş
-	 * @param layer µ±Ç°×é¼şµÄ²ã¼¶
+	 * æ˜¾ç¤ºæ‰€æœ‰å­ç»„ä»¶
+	 * @param layer å½“å‰çš„å±‚çº§
 	 */
 	public abstract void display(int layer);
 	
 	/**
-	 * »ñÈ¡µ±Ç°²ã¼¶µÄÇ°×º×Ö·û´®
-	 * @param layer µ±Ç°×é¼şµÄ²ã¼¶
-	 * @return µ±Ç°²ã¼¶µÄÇ°×º×Ö·û´®
+	 * è·å–å½“å‰å±‚çº§çš„å‰ç¼€å­—ç¬¦ä¸²
+	 * @param layer å½“å‰çš„å±‚çº§
+	 * @return å½“å‰å±‚çº§çš„å‰ç¼€å­—ç¬¦ä¸²
 	 */
 	public String getLayerString(int layer){
 		StringBuffer prefix = new StringBuffer();

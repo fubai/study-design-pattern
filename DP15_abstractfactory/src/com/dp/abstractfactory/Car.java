@@ -1,14 +1,14 @@
 package com.dp.abstractfactory;
 
 /**
- * 汽车基类
+ * 姹借溅
  * @author zhang
  *
  */
 public abstract class Car {
 
 	/**
-	 * 车的名字
+	 * 鍚嶅瓧
 	 */
 	protected String name;
 
@@ -18,7 +18,7 @@ public abstract class Car {
 	}
 	
 	/**
-	 * 展示
+	 * 灞曠ず
 	 */
 	public abstract void display();
 }

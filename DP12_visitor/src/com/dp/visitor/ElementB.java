@@ -1,7 +1,7 @@
 package com.dp.visitor;
 
 /**
- * 具体元素角色B
+ * 鍏蜂綋鍏冪礌B
  * @author zhang
  *
  */
@@ -9,7 +9,7 @@ public class ElementB implements Element{
 
 	@Override
 	public void accept(Visitor visitor) {
-		System.out.println(this.getClass().getSimpleName() + " 接受 "+ visitor.getClass().getSimpleName() +" 访问");
+		System.out.println(this.getClass().getSimpleName() + " 鎺ュ彈 "+ visitor.getClass().getSimpleName() +" 璁块棶");
 		visitor.visit(this);
 	}
 

@@ -1,7 +1,7 @@
 package com.dp.bridge;
 
 /**
- * 手机品牌B
+ * 鎵嬫満鍝佺墝B
  * @author zhang
  *
  */
@@ -9,7 +9,7 @@ public class PhoneBrandB extends Phone {
 
 	@Override
 	public void run() {
-		System.out.print("手机品牌B ： ");
+		System.out.print("鎵嬫満鍝佺墝A杩愯 ");
 		getSoft().work();
 	}
 

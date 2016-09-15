@@ -1,7 +1,7 @@
 package com.dp.composite;
 
 /**
- * ×îµ×²ãµÄ×é¼ş£¬Ã»ÓĞ×Ó×é¼ş
+ * æœ€åº•å±‚ç»„ä»¶
  * @author zhang
  *
  */
@@ -13,12 +13,12 @@ public class BottomComponent extends Component {
 
 	@Override
 	public void addComponent(Component component) {
-		System.out.println("×îµ×²ãµÄ×é¼ş,²»ÄÜÌí¼Ó×Ó×é¼ş");
+		System.out.println("æœ€åº•å±‚ï¼Œä¸èƒ½å†æ·»åŠ å­ç»„ä»¶");
 	}
 
 	@Override
 	public void removeComponent(Component component) {
-		System.out.println("×îµ×²ãµÄ×é¼ş,²»ÄÜÉ¾³ı×Ó×é¼ş");
+		System.out.println("æœ€åº•å±‚ï¼Œä¸èƒ½åˆ é™¤å­ç»„ä»¶");
 	}
 
 	@Override

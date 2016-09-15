@@ -1,7 +1,7 @@
 package com.dp.bridge;
 
 /**
- * 聊天软件
+ * 鑱婂ぉ杞欢
  * @author zhang
  *
  */
@@ -9,7 +9,7 @@ public class SoftChat extends Soft {
 
 	@Override
 	public void work() {
-		System.out.println("聊天软件运行");
+		System.out.println("鑱婂ぉ杞欢杩愯");
 	}
 
 }

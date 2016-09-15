@@ -1,14 +1,14 @@
 package com.dp.visitor;
 
 /**
- * ÔªËØ½ÇÉ«
+ * å…ƒç´ 
  * @author zhang
  *
  */
 public interface Element {
 	
 	/**
-	 * ½ÓÊÜ·ÃÎÊÕß
+	 * æ¥å—è®¿é—®è€…
 	 * @param visitor
 	 */
 	public void accept(Visitor visitor);

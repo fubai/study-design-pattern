@@ -1,7 +1,7 @@
 package com.dp.prototype;
 
 /**
- * ÖĞµÈÄÑ¶ÈµÄÌ¹¿Ë
+ * ä¸­ç­‰éš¾åº¦çš„å¦å…‹
  * @author zhang
  *
  */
@@ -11,7 +11,7 @@ public class MiddleTank extends Tank {
 		this.name = "middle";
 		this.attackPower = 2d;
 		this.defensePower = 2d;
-		System.out.println("Ì¹¿ËÃû×Ö£º" + name + " \t¹¥»÷Á¦£º" + attackPower + " \t·ÀÓùÁ¦£º" + defensePower);
+		System.out.println("Ì¹å¦å…‹" + name + " \tæ”»å‡»åŠ›" + attackPower + " \té˜²å¾¡åŠ›" + defensePower);
 	}
 
 	@Override

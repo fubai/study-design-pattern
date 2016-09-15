@@ -1,15 +1,15 @@
 package com.dp.visitor.another;
 
 /**
- * ÔªËØ½ÇÉ«£º ÈË
+ * å…ƒç´ è§’è‰²:äºº
  * @author zhang
  *
  */
 public interface Person {
 	
 	/**
-	 * ½ÓÊÜ·ÃÎÊÕß£ºÈËÉúÕı´¦ÔÚÄÄ¸ö×´Ì¬
-	 * @param status
+	 * äººç”Ÿæ­¥å…¥ä»€ä¹ˆçŠ¶æ€
+	 * @param status çŠ¶æ€
 	 */
 	public void walkToStatus(Status status);
 }

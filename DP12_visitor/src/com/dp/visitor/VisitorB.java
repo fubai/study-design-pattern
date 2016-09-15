@@ -1,7 +1,7 @@
 package com.dp.visitor;
 
 /**
- * 具体访问者角色B
+ * 鍏蜂綋璁块棶瑙掕壊B
  * @author zhang
  *
  */
@@ -9,12 +9,12 @@ public class VisitorB implements Visitor {
 
 	@Override
 	public void visit(ElementA elementA) {
-		System.out.println(this.getClass().getSimpleName() + " 访问 " + elementA.getClass().getSimpleName());
+		System.out.println(this.getClass().getSimpleName() + " 璁块棶 " + elementA.getClass().getSimpleName());
 	}
 
 	@Override
 	public void visit(ElementB elementB) {
-		System.out.println(this.getClass().getSimpleName() + " 访问 " + elementB.getClass().getSimpleName());
+		System.out.println(this.getClass().getSimpleName() + " 璁块棶" + elementB.getClass().getSimpleName());
 	}
 
 }

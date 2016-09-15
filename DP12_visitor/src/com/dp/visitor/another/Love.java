@@ -1,7 +1,7 @@
 package com.dp.visitor.another;
 
 /**
- * ¾ßÌå·ÃÎÊÕß½ÇÉ«A£ºÁµ°®×´Ì¬
+ * å…·ä½“è®¿é—®è§’è‰²A ï¼š æ‹çˆ±çŠ¶æ€Ì¬
  * @author zhang
  *
  */
@@ -9,12 +9,12 @@ public class Love implements Status {
 
 	@Override
 	public void mind(Man man) {
-		System.out.println(this.getClass().getSimpleName() + " µÄ×´Ì¬£º " + man.getClass().getSimpleName() + " ·²ÊÇ²»¶®Ò²Òª×°¶®");
+		System.out.println(this.getClass().getSimpleName() + " çŠ¶æ€æ—¶ " + man.getClass().getSimpleName() + " å‡¡äº‹ä¸æ‡‚ä¹Ÿè¦è£…æ‡‚");
 	}
 
 	@Override
 	public void mind(Woman woman) {
-		System.out.println(this.getClass().getSimpleName() + " µÄ×´Ì¬£º " + woman.getClass().getSimpleName() + " ÓöÊÂ¶®Ò²×°×÷²»¶®");
+		System.out.println(this.getClass().getSimpleName() + " çŠ¶æ€æ—¶ " + woman.getClass().getSimpleName() + " é‡äº‹æ‡‚ä¹Ÿè£…ä½œä¸æ‡‚");
 	}
 
 }

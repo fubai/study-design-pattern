@@ -1,19 +1,19 @@
 package com.dp.visitor;
 
 /**
- * ·ÃÎÊÕß½ÇÉ«
+ * è®¿é—®è€…
  * @author zhang
  *
  */
 public interface Visitor {
 
 	/**
-	 * ·ÃÎÊÔªËØA
+	 * è®¿é—®æ–¹æ³•ï¼Œè®¿é—®å…ƒç´ A
 	 * @param elementA
 	 */
 	public void visit(ElementA elementA);
 	/**
-	 * ·ÃÎÊÔªËØB
+	 * è®¿é—®æ–¹æ³•ï¼Œè®¿é—®å…ƒç´ B
 	 * @param elementB
 	 */
 	public void visit(ElementB elementB);

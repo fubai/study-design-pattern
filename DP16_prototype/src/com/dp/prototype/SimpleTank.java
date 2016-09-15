@@ -1,7 +1,7 @@
 package com.dp.prototype;
 
 /**
- * ¼òµ¥ÄÑ¶ÈµÄÌ¹¿Ë
+ * ç®€å•éš¾åº¦çš„å¦å…‹
  * @author zhang
  *
  */
@@ -11,7 +11,7 @@ public class SimpleTank extends Tank {
 		this.name = "simple";
 		this.attackPower = 1d;
 		this.defensePower = 1d;
-		System.out.println("Ì¹¿ËÃû×Ö£º" + name + " \t¹¥»÷Á¦£º" + attackPower + " \t·ÀÓùÁ¦£º" + defensePower);
+		System.out.println("Ì¹å¦å…‹" + name + " \tæ”»å‡»åŠ›" + attackPower + " \té˜²å¾¡åŠ›" + defensePower);
 	}
 
 	@Override

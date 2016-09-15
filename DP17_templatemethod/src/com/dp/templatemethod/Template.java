@@ -1,17 +1,17 @@
 package com.dp.templatemethod;
 
 /**
- * Ä£°å
+ * æ¨¡æ¿
  * @author zhang
  *
  */
 public abstract class Template {
 
 	public void templateMethod1(){
-		System.out.println("Ä£°åÖĞµÄµÚÒ»¸ö·½·¨");
+		System.out.println("ç¬¬ä¸€ä¸ªæ¨¡æ¿æ–¹æ³•");
 	}
 	public void templateMethod3(){
-		System.out.println("Ä£°åÖĞµÄµÚÈı¸ö·½·¨");
+		System.out.println("ç¬¬ä¸‰ä¸ªæ¨¡æ¿æ–¹æ³•");
 	}
 	
 	public void templateMethod(){
@@ -21,7 +21,7 @@ public abstract class Template {
 	}
 	
 	/**
-	 * Ä£°åÊµÏÖ
+	 * ç¬¬äºŒä¸ªæ¨¡æ¿æ–¹æ³•
 	 */
 	public abstract void templateMethod2();
 }

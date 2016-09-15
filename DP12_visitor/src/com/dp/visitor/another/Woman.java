@@ -1,7 +1,7 @@
 package com.dp.visitor.another;
 
 /**
- * ¾ßÌåÔªËØ½ÇÉ«B£ºÅ®ÈË
+ * å…·ä½“å…ƒç´ B ï¼šå¥³äºº
  * @author zhang
  *
  */
@@ -9,7 +9,7 @@ public class Woman implements Person{
 
 	@Override
 	public void walkToStatus(Status status) {
-		System.out.println(this.getClass().getSimpleName() + " ´¦ÓÚ "+ status.getClass().getSimpleName() +" µÄ×´Ì¬");
+		System.out.println(this.getClass().getSimpleName() + " æ­¥å…¥ "+ status.getClass().getSimpleName() +" çš„çŠ¶æ€");
 		status.mind(this);
 	}
 

@@ -1,7 +1,7 @@
 package com.dp.visitor.another;
 
 /**
- * ¾ßÌå·ÃÎÊÕß½ÇÉ«B:½á»é×´Ì¬
+ * å…·ä½“è®¿é—®è§’è‰²B ï¼š ç»“å©šçŠ¶æ€
  * @author zhang
  *
  */
@@ -9,12 +9,12 @@ public class Marriage implements Status {
 
 	@Override
 	public void mind(Man man) {
-		System.out.println(this.getClass().getSimpleName() + " µÄ×´Ì¬£º " + man.getClass().getSimpleName() + " ¸Ğ¸ÅµÀ£ºÁµ°®ÓÎÏ·ÖÕ½áÊ±£¬¡®ÓĞÆŞÍ½ĞÌ¡¯ÖÕÎŞÆÚ");
+		System.out.println(this.getClass().getSimpleName() + " çŠ¶æ€æ—¶" + man.getClass().getSimpleName() + " æ„Ÿæ…¨é“ï¼šæ‹çˆ±æ¸¸æˆç»ˆç»“æ—¶ï¼Œâ€˜æœ‰å¦»å¾’åˆ‘â€™ç»ˆæ— æœŸ");
 	}
 
 	@Override
 	public void mind(Woman woman) {
-		System.out.println(this.getClass().getSimpleName() + " µÄ×´Ì¬£º " + woman.getClass().getSimpleName() + " ĞÀÎ¿Ô»£º°®Çé³¤ÅÜÂ·ÂşÂş£¬»éÒö±£ÏÕ±£°²È«");
+		System.out.println(this.getClass().getSimpleName() + " çŠ¶æ€æ—¶" + woman.getClass().getSimpleName() + " æ¬£æ…°æ›°ï¼šçˆ±æƒ…é•¿è·‘è·¯æ¼«æ¼«ï¼Œå©šå§»ä¿é™©ä¿å¹³å®‰");
 	}
 
 }

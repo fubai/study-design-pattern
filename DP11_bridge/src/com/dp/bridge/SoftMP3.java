@@ -1,7 +1,7 @@
 package com.dp.bridge;
 
 /**
- * mp3软件
+ * mp3杞欢
  * @author zhang
  *
  */
@@ -9,7 +9,7 @@ public class SoftMP3 extends Soft {
 
 	@Override
 	public void work() {
-		System.out.println("mp3软件运行");
+		System.out.println("mp3杞欢杩愯");
 	}
 
 }
