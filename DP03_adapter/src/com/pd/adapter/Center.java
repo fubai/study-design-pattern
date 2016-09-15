@@ -1,16 +1,16 @@
 package com.pd.adapter;
 
 /**
- * ÖÐ·æ
+ * ä¸­é”‹
  * @author zhang
  *
  */
 public class Center extends Player{
 
 	public void attack(){
-		System.out.println("ÖÐ·æ½ø¹¥");
+		System.out.println("ä¸­é”‹è¿›æ”»");
 	}
 	public void defense(){
-		System.out.println("ÖÐ·æ·ÀÓù");
+		System.out.println("ä¸­é”‹é˜²å¾¡");
 	}
 }

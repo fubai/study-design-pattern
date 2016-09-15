@@ -1,18 +1,18 @@
 package com.dp.observer;
 
 /**
- * ÔÚÍæÓÎÏ·µÄÍ¬ÊÂÃÇ
+ * ç©æ¸¸æˆçš„è§‚å¯Ÿè€…
  * @author zhang
  *
  */
 public class ObserverGAME implements Observer {
 
 	/**
-	 * Èç¹ûÀÏ°å»ØÀ´£¬ÂíÉÏÍ£Ö¹ÍæÓÎÏ·
+	 * è€æ¿å›æ¥äº†ï¼Œå¼€å§‹å·¥ä½œ
 	 */
 	@Override
 	public void updateStatus(String event) {
-		System.out.println(event + " Í£Ö¹ÍæÓÎÏ·£¬¼ÌĞø¹¤×÷");
+		System.out.println(event + " åœæ­¢ç©æ¸¸æˆï¼Œå¼€å§‹å·¥ä½œ");
 	}
 
 }

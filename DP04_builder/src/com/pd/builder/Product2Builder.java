@@ -1,7 +1,7 @@
 package com.pd.builder;
 
 /**
- * ²úÆ·2µÄ½¨Ôì
+ * äº§å“2å»ºé€ è€…
  * @author zhang
  *
  */
@@ -9,22 +9,22 @@ public class Product2Builder extends Builder{
 
 	@Override
 	public void buildA() {
-		System.out.println("²úÆ·2½¨Ôì²¿¼şA");
+		System.out.println("äº§å“2å»ºé€ éƒ¨ä»¶A");
 	}
 
 	@Override
 	public void buildB() {
-		System.out.println("²úÆ·2½¨Ôì²¿¼şB");
+		System.out.println("äº§å“2å»ºé€ éƒ¨ä»¶B");
 	}
 
 	@Override
 	public void buildC() {
-		System.out.println("²úÆ·2½¨Ôì²¿¼şC");
+		System.out.println("äº§å“2å»ºé€ éƒ¨ä»¶C");
 	}
 
 	@Override
 	public void display() {
-		System.out.println("²úÆ·2Õ¹Ê¾");
+		System.out.println("äº§å“2å±•ç¤º");
 	}
 
 }

@@ -1,7 +1,7 @@
 package com.pd.adapter;
 
 /**
- * ·­ÒëÊÊÅäÆ÷
+ * ç¿»è¯‘ï¼šé€‚é…å™¨
  * @author zhang
  *
  */

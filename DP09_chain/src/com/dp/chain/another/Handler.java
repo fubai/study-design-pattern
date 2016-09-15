@@ -1,7 +1,7 @@
 package com.dp.chain.another;
 
 /**
- * ³éÏó´¦ÀíÕßµÄ½Ó¿Ú
+ * å®¡æ‰¹è€…
  * @author zhang
  *
  */
@@ -9,9 +9,9 @@ public abstract class Handler {
 
 	
 	/**
-	 * ´¦ÀíÇëÇó
-	 * @param dayNum Çë¼ÙÌìÊı
-	 * @param chain ´¦ÀíÕßÁ´
+	 * å®¡æ‰¹æ–¹æ³•
+	 * @param dayNum è¯·å‡å¤©æ•°
+	 * @param chain å®¡æ‰¹é“¾
 	 */
 	public abstract String handleRequest(int dayNum, Chain chain);
 }

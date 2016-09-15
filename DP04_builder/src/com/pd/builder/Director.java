@@ -1,14 +1,14 @@
 package com.pd.builder;
 
 /**
- * Ö¸»ÓÕß
+ * æŒ‡æŒ¥è€…
  * @author zhang
  *
  */
 public class Director {
 
 	/**
-	 * ½¨Ôì·½·¨
+	 * å»ºé€ 
 	 */
 	public void build(Builder builder){
 		builder.buildA();

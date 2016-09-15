@@ -1,23 +1,23 @@
 package com.dp.chain.another;
 
 /**
- * ÔğÈÎÁ´
+ * å®¡æ‰¹é“¾
  * @author zhang
  *
  */
 public class Chain {
 
-	//¼ÇÂ¼Êı×é³¤¶È
+	//é“¾çš„é•¿åº¦
 	private int n = 0;
-	//¼ÇÂ¼µ±Ç°´¦ÀíµÄÎ»ÖÃ
+	//å½“å‰è¿›å±•åˆ°é“¾çš„ä½ç½®
 	private int cur = 0;
-	//Êı×éÃ¿´ÎÔö¼ÓµÄ³¤¶È
+	//æ¯æ¬¡é“¾å¢é•¿çš„é•¿åº¦
 	public static final int INCREMENT = 10;
-	//³õÊ¼»¯´¦ÀíÕßµÄÊı×é
+	//å®¡æ‰¹é“¾
 	private Handler[] handlerChain = new Handler[n];
 	
 	/**
-	 * Ìí¼Ó´¦ÀíÕß
+	 * æ·»åŠ å®¡æ‰¹è€…
 	 * @param handler
 	 */
 	public void addHandler(Handler handler){
@@ -37,7 +37,7 @@ public class Chain {
 	}
 	
 	/**
-	 * ´¦ÀíÇëÇó
+	 * è¯·å‡å®¡æ‰¹
 	 * @param dayNum
 	 */
 	public void handler(int dayNum){

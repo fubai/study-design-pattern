@@ -1,16 +1,16 @@
 package com.pd.adapter;
 
 /**
- * ÇòÔ±
+ * çƒå‘˜
  * @author zhang
  *
  */
 public class Player {
 
 	public void attack(){
-		System.out.println("½ø¹¥");
+		System.out.println("çƒå‘˜è¿›æ”»");
 	}
 	public void defense(){
-		System.out.println("·ÀÓù");
+		System.out.println("çƒå‘˜é˜²å¾¡");
 	}
 }

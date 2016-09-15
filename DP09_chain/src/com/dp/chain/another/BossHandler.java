@@ -1,7 +1,7 @@
 package com.dp.chain.another;
 
 /**
- * ÀÏ°å
+ * è€æ¿å®¡æ‰¹
  * @author zhang
  *
  */
@@ -10,10 +10,10 @@ public class BossHandler extends Handler {
 	@Override
 	public String handleRequest(int dayNum,Chain chain) {
 		if(dayNum < 20){
-			System.out.println("20ÌìÒÔÏÂµÄÇë¼ÙÉêÇë£¬ÀÏ°å¿ÉÒÔÅú×¼");
+			System.out.println("20å¤©ä»¥å†…è€æ¿å®¡æ‰¹é€šè¿‡");
 			return "OK";
 		}else{
-			System.out.println("20ÌìÒÔÉÏµÄÇë¼ÙÉêÇë£¬ÀÏ°å²»Åú×¼");
+			System.out.println("20å¤©ä»¥ä¸Šè€æ¿å®¡æ‰¹ä¸é€šè¿‡");
 			chain.handler(dayNum);
 			return "chain OK";
 		}

@@ -1,7 +1,7 @@
 package com.dp.decorator;
 
 /**
- * ÒÂ·ş
+ * è¡£æœ
  * @author zhang
  *
  */

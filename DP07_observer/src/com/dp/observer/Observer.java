@@ -1,14 +1,14 @@
 package com.dp.observer;
 
 /**
- * �۲���
+ * 观察者
  * @author zhang
  *
  */
 public interface Observer {
 
 	/**
-	 * �����¼��ı�״̬
+	 * 由于事件，修改状态  比如老板回来了，赶紧工作
 	 */
 	public void updateStatus(String event);
 }

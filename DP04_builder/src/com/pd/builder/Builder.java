@@ -1,19 +1,19 @@
 package com.pd.builder;
 
 /**
- * ³éÏó½¨ÔìÕßÀà
+ * å»ºé€ è€…çš„æŠ½è±¡ç±»
  * @author zhang
  *
  */
 public abstract class Builder {
 	
-	//½¨Ôì²¿¼şA
+	//å»ºé€ éƒ¨ä»¶A
 	public abstract void buildA();
-	//½¨Ôì²¿¼şB
+	//å»ºé€ éƒ¨ä»¶B
 	public abstract void buildB();
-	//½¨Ôì²¿¼şC
+	//å»ºé€ éƒ¨ä»¶C
 	public abstract void buildC();
 	
-	//²úÆ·Õ¹Ê¾
+	//å±•ç¤º
 	public abstract void display();
 }

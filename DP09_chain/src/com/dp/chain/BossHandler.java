@@ -1,7 +1,7 @@
 package com.dp.chain;
 
 /**
- * 老板
+ * 鑰佹澘瀹℃壒
  * @author zhang
  *
  */
@@ -10,11 +10,11 @@ public class BossHandler extends Handler {
 	@Override
 	public String handleRequest(int dayNum) {
 		if(dayNum < 20){
-			System.out.println("20天以下的请假申请，老板可以批准");
+			System.out.println("20澶╀互鍐呰�佹澘瀹℃壒閫氳繃");
 			return "OK";
 		}else{
-			System.out.println("20天以上的请假申请，老板不批准");
-			return "OK";
+			System.out.println("20浠ヤ笂鑰佹澘鎷掔粷瀹℃壒");
+			return "FAIL";
 		}
 	}
 

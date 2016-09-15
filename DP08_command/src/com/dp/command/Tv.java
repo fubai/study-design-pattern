@@ -1,14 +1,14 @@
 package com.dp.command;
 
 /**
- * ÃüÁî½ÓÊÕÕß
+ * ç”µè§†ï¼Œæ¥æ”¶å‘½ä»¤
  * @author zhang
  *
  */
 public class Tv {
 	
 	/**
-	 * ÆµµÀ
+	 * é¢‘é“
 	 */
 	private int channel;
 	
@@ -19,22 +19,22 @@ public class Tv {
 		this.channel = channel;
 	}
 	/**
-	 * ´ò¿ªµçÊÓ
+	 * å¼€æœº
 	 */
 	public void turnOn(){
-		System.out.println("´ò¿ªµçÊÓ");
+		System.out.println("å¼€æœº");
 	}
 	/**
-	 * ¹Ø±ÕµçÊÓ
+	 * å…³æœº
 	 */
 	public void turnOff(){
-		System.out.println("¹Ø±ÕµçÊÓ");
+		System.out.println("å…³æœº");
 	}
 	/**
-	 * ÇĞ»»µçÊÓÆµµÀ
+	 * æ¢é¢‘é“
 	 */
 	public void turnChannel(int channel){
 		setChannel(channel);
-		System.out.println("µ±Ç°µçÊÓÆµµÀÎª£º" + getChannel());
+		System.out.println("å½“å‰é¢‘é“ä¸ºï¼š" + getChannel());
 	}
 }

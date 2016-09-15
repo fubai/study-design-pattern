@@ -1,7 +1,7 @@
 package com.dp.chain.another;
 
 /**
- * 经理
+ * 缁忕悊瀹℃壒
  * @author zhang
  *
  */
@@ -10,10 +10,10 @@ public class ManagerHandler extends Handler {
 	@Override
 	public String handleRequest(int dayNum, Chain chain) {
 		if(dayNum < 5){
-			System.out.println("5天以下的请假申请，经理可以批准");
+			System.out.println("5澶╀互鍐呯粡鐞嗗鎵归�氳繃");
 			return "OK";
 		}else{
-			System.out.println("5天以上的请假申请，需要总监批准");
+			System.out.println("5澶╀互涓婇渶瑕佹�荤洃瀹℃壒");
 			chain.handler(dayNum);
 			return "chain OK";
 		}

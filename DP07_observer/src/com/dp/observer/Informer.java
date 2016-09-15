@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * ֪ͨ��
+ * 通知者
  * @author zhang
  *
  */
@@ -20,7 +20,7 @@ public class Informer {
 	}
 	
 	/**
-	 * �¼�
+	 * 事件
 	 */
 	private String event;
 	

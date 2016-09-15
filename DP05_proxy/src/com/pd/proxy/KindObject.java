@@ -1,14 +1,14 @@
 package com.pd.proxy;
 
 /**
- * Ä³ÖÖ¶ÔÏó
+ * æŸç§å¯¹è±¡
  * @author zhang
  *
  */
 public abstract class KindObject {
 
 	/**
-	 * ×öÄ³ÖÖÊÂÇé
+	 * åšæŸç§äº‹æƒ…
 	 */
 	public abstract void doKindThing();
 }

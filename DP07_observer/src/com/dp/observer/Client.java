@@ -7,7 +7,7 @@ public class Client {
 		informer.addObserver(new ObserverNBA());
 		informer.addObserver(new ObserverGAME());
 
-		informer.setEvent("ÀÏ°å»ØÀ´ÁË");
+		informer.setEvent("è€æ¿å›æ¥äº†");
 		
 		informer.notifyObserver();
 	}

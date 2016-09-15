@@ -1,14 +1,14 @@
 package com.dp.chain;
 
 /**
- * 抽象处理者的接口
+ * 瀹℃壒娴佺▼
  * @author zhang
  *
  */
 public abstract class Handler {
 
 	/**
-	 * 下一位处理者
+	 * 涓嬩竴涓鎵逛汉
 	 */
 	private Handler next;
 
@@ -21,8 +21,8 @@ public abstract class Handler {
 	}
 	
 	/**
-	 * 处理请求
-	 * @param dayNum 请假天数
+	 * 瀹℃壒
+	 * @param dayNum 璇峰亣澶╂暟
 	 */
 	public abstract String handleRequest(int dayNum);
 }

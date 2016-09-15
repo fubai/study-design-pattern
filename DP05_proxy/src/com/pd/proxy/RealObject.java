@@ -1,7 +1,7 @@
 package com.pd.proxy;
 
 /**
- * Êµ¼Ê¶ÔÏó£¨±»´úÀíÕß£©
+ * çœŸå®å¯¹è±¡
  * @author zhang
  *
  */
@@ -9,7 +9,7 @@ public class RealObject extends KindObject {
 
 	@Override
 	public void doKindThing() {
-		System.out.println("Êµ¼Ê¶ÔÏó×öÄ³ÖÖÊÂÇé");
+		System.out.println("çœŸå®å¯¹è±¡åšæŸç§äº‹æƒ…");
 	}
 
 }

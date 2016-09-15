@@ -1,19 +1,19 @@
 package com.pd.adapter;
 
 /**
- * ½ÌÁ·
+ * æ•™ç»ƒ
  * @author zhang
  *
  */
 public class Coach {
 	
 	public static void main(String[] args) {
-		Player °ÂÄá¶û = new Center();
-		°ÂÄá¶û.attack();
-		°ÂÄá¶û.defense();
+		Player å¥¥å°¼å°” = new Center();
+		å¥¥å°¼å°”.attack();
+		å¥¥å°¼å°”.defense();
 		
-		Player Ò¦Ã÷ = new TranslateAdapter();
-		Ò¦Ã÷.attack();
-		Ò¦Ã÷.defense();
+		Player å§šæ˜ = new TranslateAdapter();
+		å§šæ˜.attack();
+		å§šæ˜.defense();
 	}
 }

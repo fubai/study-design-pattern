@@ -1,14 +1,14 @@
 package com.dp.decorator;
 
 /**
- * ÈË---×°ÊÎÕß
+ * äºº---è£…é¥°
  * @author zhang
  *
  */
 public class Person{
 
 	public void decorate() {
-		System.out.println("×°ÊÎ×Ô¼º");
+		System.out.println("ä¸€ä¸ªäººåœ¨æ‰“æ‰®");
 	}
 
 }

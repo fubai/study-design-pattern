@@ -1,17 +1,17 @@
 package com.pd.adapter;
 
 /**
- * 外籍中锋 听不懂attack 和 defense
+ * 澶栫睄涓攱 涓嶈璇哸ttack鍜宒efense鏂规硶
  * @author zhang
  *
  */
 public class ForeignCenter {
 	
 	public void foreignAttack(){
-		System.out.println("外籍中锋进攻");
+		System.out.println("澶栫睄涓攱杩涙敾");
 	}
 	
 	public void foreignDefense(){
-		System.out.println("外籍中锋防御");
+		System.out.println("澶栫睄涓攱闃插尽");
 	}
 }

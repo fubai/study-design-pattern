@@ -1,7 +1,7 @@
 package com.dp.command;
 
 /**
- * Ò£¿ØÆ÷
+ * é¥æ§å™¨
  * @author zhang
  *
  */
@@ -18,19 +18,19 @@ public class Telecontroller {
 	}
 	
 	/**
-	 * ´ò¿ªµçÊÓ
+	 * å¼€æœº
 	 */
 	public void turnOn(){
 		turnOnCommand.execute();
 	}
 	/**
-	 * ¹Ø±ÕµçÊÓ
+	 * å…³æœº
 	 */
 	public void turnOff(){
 		turnOffCommand.execute();
 	}
 	/**
-	 * ÇĞ»»µçÊÓÆµµÀ
+	 * æ¢é¢‘é“
 	 */
 	public void turnChannel(){
 		turnChannelCommand.execute();

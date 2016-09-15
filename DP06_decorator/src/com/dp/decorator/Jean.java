@@ -1,7 +1,7 @@
 package com.dp.decorator;
 
 /**
- * Å£×Ð¿ã
+ * ç‰›ä»”è£¤
  * @author zhang
  *
  */
@@ -13,7 +13,7 @@ public class Jean extends Clothes {
 
 	@Override
 	public void decorate() {
-		System.out.println("´©ÉÏÅ£×Ð¿ã");
+		System.out.println("ç©¿ä¸Šç‰›ä»”è£¤");
 		super.decorate();
 	}
 	

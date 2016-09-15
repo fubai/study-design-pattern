@@ -1,14 +1,14 @@
 package com.dp.command;
 
 /**
- * 命令接口
+ * 鍛戒护
  * @author zhang
  *
  */
 public interface Command {
 
 	/**
-	 * 执行命令
+	 * 鎵ц鍛戒护
 	 */
 	public void execute();
 }
