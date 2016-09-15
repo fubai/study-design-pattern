@@ -9,23 +9,23 @@ public class Facade {
 
 class DrawerOne {
 	public void open() {
-		System.out.println("µÚÒ»¸ö³éÌë±»´ò¿ªÁË");
+		System.out.println("æ‰“å¼€ç¬¬ä¸€ä¸ªæŠ½å±‰");
 		getKey();
 	}
 
 	public void getKey() {
-		System.out.println("µÃµ½µÚ¶ş¸ö³éÌëµÄÔ¿³×");
+		System.out.println("æ‹¿åˆ°é’¥åŒ™");
 	}
 }
 
 class DrawerTwo {
 	public void open() {
-		System.out.println("µÚ¶ş¸ö³éÌë±»´ò¿ªÁË");
+		System.out.println("æ‰“å¼€ç¬¬äºŒä¸ªæŠ½å±‰");
 		getFile();
 	}
 
 	public void getFile() {
-		System.out.println("µÃµ½Õâ¸öÖØÒªÎÄ¼ş");
+		System.out.println("æ‹¿åˆ°æ–‡ä»¶");
 	}
 }
 
