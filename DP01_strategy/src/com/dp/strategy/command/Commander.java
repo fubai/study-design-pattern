@@ -6,7 +6,7 @@ import com.dp.strategy.factory.HeavyFactory;
 import com.dp.strategy.weapon.HeavyWeapon;
 
 /**
- * ָ�ӹ�
+ * 指挥官
  * @author zhang
  *
  */

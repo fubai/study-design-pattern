@@ -1,18 +1,18 @@
 package com.dp.strategy.behavior;
 
 /**
- * 简单难度的防御行为
+ * 绠�鍗曢毦搴︾殑闃插尽琛屼负
  * @author zhang
  *
  */
 public class SimpleLevelDefenseBehavior implements DefenseBehavior {
 
 	/**
-	 * 防御
+	 * 闃插尽
 	 */
 	@Override
 	public void defense() {
-		System.out.println("当前防御力度为简单！");
+		System.out.println("绠�鍗曢毦搴︾殑闃插尽琛屼负");
 	}
 
 }

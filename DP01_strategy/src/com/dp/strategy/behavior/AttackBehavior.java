@@ -1,14 +1,14 @@
 package com.dp.strategy.behavior;
 
 /**
- * 攻击行为接口
+ * 杩涙敾琛屼负
  * @author zhang
  *
  */
 public interface AttackBehavior {
 	
 	/**
-	 * 攻击
+	 * 杩涙敾
 	 */
 	public void attack();
 		

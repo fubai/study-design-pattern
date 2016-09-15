@@ -1,14 +1,14 @@
 package com.dp.strategy.behavior;
 
 /**
- * 防御行为接口
+ * 闃插尽琛屼负
  * @author zhang
  *
  */
 public interface DefenseBehavior {
 
 	/**
-	 * 防御
+	 * 闃插尽
 	 */
 	public void defense();
 }

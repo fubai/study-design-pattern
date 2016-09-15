@@ -1,18 +1,18 @@
 package com.dp.strategy.behavior;
 
 /**
- * ÖĞµÈÄÑ¶ÈµÄ·ÀÓùĞĞÎª
+ * ä¸­ç­‰éš¾åº¦çš„é˜²å¾¡è¡Œä¸º
  * @author zhang
  *
  */
 public class MiddleLevelDefenseBehavior implements DefenseBehavior {
 
 	/**
-	 * ·ÀÓù
+	 * é˜²å¾¡
 	 */
 	@Override
 	public void defense() {
-		System.out.println("µ±Ç°·ÀÓùÁ¦¶ÈÎªÖĞµÈ£¡");
+		System.out.println("ä¸­ç­‰éš¾åº¦çš„é˜²å¾¡è¡Œä¸º");
 	}
 
 }

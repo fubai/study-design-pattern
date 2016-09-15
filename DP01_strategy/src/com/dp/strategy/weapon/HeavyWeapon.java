@@ -4,7 +4,7 @@ import com.dp.strategy.behavior.AttackBehavior;
 import com.dp.strategy.behavior.DefenseBehavior;
 
 /**
- * ÖØĞÍÎäÆ÷
+ * é‡æ­¦å™¨
  * @author zhang
  *
  */
@@ -35,13 +35,13 @@ public class HeavyWeapon {
 	}
 	
 	/**
-	 * ¹¥»÷
+	 * è¿›æ”»
 	 */
 	public void attack(){
 		attackBehavior.attack();
 	}
 	/**
-	 * ·ÀÓù
+	 * é˜²å¾¡
 	 */
 	public void defense(){
 		defenseBehavior.defense();

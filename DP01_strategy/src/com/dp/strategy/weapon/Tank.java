@@ -4,7 +4,7 @@ import com.dp.strategy.behavior.SimpleLevelAttackBehavior;
 import com.dp.strategy.behavior.SimpleLevelDefenseBehavior;
 
 /**
- * ÖØÎäÆ÷--Ì¹¿Ë
+ * é‡æ­¦å™¨-å¦å…‹
  * @author zhang
  *
  */

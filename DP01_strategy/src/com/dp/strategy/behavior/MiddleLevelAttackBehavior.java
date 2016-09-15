@@ -1,18 +1,18 @@
 package com.dp.strategy.behavior;
 
 /**
- * ÖÐµÈÄÑ¶ÈµÄ¹¥»÷
+ * ä¸­ç­‰éš¾åº¦çš„è¿›æ”»è¡Œä¸º
  * @author zhang
  *
  */
 public class MiddleLevelAttackBehavior implements AttackBehavior {
 
 	/**
-	 * ¹¥»÷
+	 * è¿›æ”»
 	 */
 	@Override
 	public void attack() {
-		System.out.println("¹¥»÷Ç¿¶ÈÎªÖÐµÈ£¡");
+		System.out.println("ä¸­ç­‰éš¾åº¦çš„è¿›æ”»è¡Œä¸º");
 	}
 
 }

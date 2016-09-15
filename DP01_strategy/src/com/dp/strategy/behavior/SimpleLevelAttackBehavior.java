@@ -1,18 +1,18 @@
 package com.dp.strategy.behavior;
 
 /**
- * 简单难度的攻击行为
+ * 绠�鍗曢毦搴︾殑杩涙敾琛屼负
  * @author zhang
  *
  */
 public class SimpleLevelAttackBehavior implements AttackBehavior {
 
 	/**
-	 * 攻击
+	 * 杩涙敾
 	 */
 	@Override
 	public void attack() {
-		System.out.println("攻击强度为简单！");
+		System.out.println("绠�鍗曢毦搴︾殑杩涙敾琛屼负");
 	}
 
 }

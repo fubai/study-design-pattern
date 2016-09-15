@@ -1,18 +1,18 @@
 package com.dp.strategy.behavior;
 
 /**
- * À§ÄÑÄÑ¶ÈµÄ¹¥»÷
+ * å›°éš¾éš¾åº¦çš„è¿›æ”»è¡Œä¸º
  * @author zhang
  *
  */
 public class DifficultLevelAttackBehavior implements AttackBehavior {
 
 	/**
-	 * ¹¥»÷
+	 * è¿›æ”»
 	 */
 	@Override
 	public void attack() {
-		System.out.println("¹¥»÷Ç¿¶ÈÎªÀ§ÄÑ£¡");
+		System.out.println("å›°éš¾éš¾åº¦çš„è¿›æ”»è¡Œä¸º");
 	}
 
 }

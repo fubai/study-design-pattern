@@ -4,7 +4,7 @@ import com.dp.strategy.weapon.HeavyWeapon;
 import com.dp.strategy.weapon.Tank;
 
 /**
- * ÖØ¹¤³§
+ * é‡å·¥å‚
  * @author zhang
  *
  */
@@ -13,7 +13,7 @@ public class HeavyFactory {
 	HeavyWeapon heavyWeapon;
 	
 	/**
-	 * Éú²úÎäÆ÷:ÖØ¹¤³§Éú²úÖØÎäÆ÷
+	 * ç”Ÿäº§é‡æ­¦å™¨
 	 */
 	public HeavyWeapon createWeapon(String type){
 		switch (type) {
